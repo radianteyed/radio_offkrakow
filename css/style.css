@@ -85,8 +85,8 @@ a {
     opacity: 0.9;
 }
 
-a:link,
-a:visited  {
+.btn-main:link,
+.btn-main:visited {
     display: inline-block;
     margin: 3rem;
     padding: 0 10px;
@@ -98,13 +98,15 @@ a:visited  {
 
 }
 
-a:hover {
+.btn-main:hover {
 background-color: #7ed56f;
 transform: translateY(-0.3rem);
 box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 
 
+
 }
+
 
 .myPlayer {
     background-color: #000;
@@ -122,15 +124,16 @@ box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
    
 }
 button {
- 
-    border: none;
+     border: none;
     cursor: pointer;
         width: 30px;
     height: 100%;
         outline: none;
         padding-left: 5rem;
+       transition: all 0.3s;
         
 }
+
 #playpausebtn {
     background: url(../img/pause-button.png) no-repeat;
     
@@ -143,4 +146,25 @@ button {
 
 #mutebtn {
     background: url(../img/speaker.png) no-repeat;
+}
+
+.btn-small:link,
+.btn-small:visited {
+   display: inline-block;
+
+   text-decoration: none;
+   font-size: 1.2rem;
+   color: #fff;
+   font-weight: 300;
+    transition: all 0.3s;
+}
+
+.btn-small:hover{
+    color: #7ed56f;
+    transform: translateY(0.3rem);
+
+}
+
+button:hover {
+    transform: translateY(0.3rem);
 }
