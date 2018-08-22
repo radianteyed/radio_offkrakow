@@ -40,6 +40,7 @@ a {
     padding: 0 1rem;
     margin: auto;
     text-align: center;
+    position: relative;
 }
 
 .fullscreen-video-wrap {
@@ -128,7 +129,7 @@ a {
     padding-top: .5rem;
     padding-left: 3rem;
     justify-content: center;
-       padding-top: 2rem;
+     padding-top: 2rem;
    
    
    
