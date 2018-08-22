@@ -2,15 +2,24 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin-ext');
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 
+html {
+    font-size: 62.5%;
+}
 body {
     text-align: center;
     margin: 0;
     padding: 0;
     font-family: 'Bree Serif', sans-serif;
     box-sizing: border-box;
-    font-size:  1rem;
-    line-height: 1.6;
+       line-height: 1.6;
     color: #fff;
     overflow-x: hidden;
 
@@ -103,8 +112,6 @@ background-color: #7ed56f;
 transform: translateY(-0.3rem);
 box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 
-
-
 }
 
 
@@ -119,8 +126,7 @@ box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     padding-top: 3rem;
     padding-left: 3rem;
     justify-content: flex-start;
-    
-    align-self: center;
+        align-self: center;
    
 }
 button {
@@ -161,10 +167,23 @@ button {
 
 .btn-small:hover{
     color: #7ed56f;
-    transform: translateY(0.3rem);
+    /* transform: translateY(0.3rem); */
 
 }
 
-button:hover {
+/* button:hover {
     transform: translateY(0.3rem);
+} */
+
+@media  (max-width: 980px) {
+  html {
+       font-size: 0.8rem;
+   }
+    .header-content h1 {
+        padding-bottom: 3rem;
+    }
+   .header-content img {
+       width: 80%;
+       height: auto;
+   }
 }
