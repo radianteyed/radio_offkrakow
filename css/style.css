@@ -124,7 +124,7 @@ a {
     left: 0;
     bottom: 0;
     display: flex;
-    padding-top: 2rem;
+    padding-top: .5rem;
     padding-left: 3rem;
     justify-content: flex-start;
     align-self: center;
