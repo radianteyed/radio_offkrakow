@@ -106,7 +106,41 @@ box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 
 }
 
-/* .video {
-      object-fit: contain;
-  } */
+.myPlayer {
+    background-color: #000;
+    height: 10%;
+    width: 100%;
+        position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    justify-content: flex-start;
+    
+    align-self: center;
+   
+}
+button {
+ 
+    border: none;
+    cursor: pointer;
+        width: 30px;
+    height: 100%;
+        outline: none;
+        padding-left: 5rem;
+        
+}
+#playpausebtn {
+    background: url(../img/pause-button.png) no-repeat;
+    
+   
+    
+  
+    
 
+}
+
+#mutebtn {
+    background: url(../img/speaker.png) no-repeat;
+}
