@@ -98,6 +98,7 @@ a {
 
 .btn-main:link,
 .btn-main:visited {
+    opacity: 0;
     display: inline-block;
     margin: 3rem;
     padding: 0 10px;
@@ -166,6 +167,7 @@ button {
    color: #fff;
    font-weight: 300;
     transition: all 0.3s;
+    
 }
 
 .btn-small:hover{
@@ -192,4 +194,8 @@ button {
    .header-content p {
        padding-top: 0;
    }
+
+   .btn-main:link,
+   .btn-main:visited {
+       opacity: 1;
 }
