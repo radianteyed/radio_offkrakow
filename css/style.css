@@ -118,7 +118,7 @@ a {
 
 .myPlayer {
     background-color: #000;
-    height: 10%;
+    height: 90px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -126,8 +126,10 @@ a {
     display: flex;
     padding-top: .5rem;
     padding-left: 3rem;
-    justify-content: flex-start;
-    align-self: center;
+    justify-content: center;
+   
+    padding-top: 2rem;
+   
    
    
 }
