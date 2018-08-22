@@ -1,6 +1,6 @@
 
 
-var audio, playbtn, mutebtn,seek_bar;
+var audio, playbtn, mutebtn;
 
 function initAudioPlayer() {
     audio = new Audio;
