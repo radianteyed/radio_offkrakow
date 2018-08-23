@@ -13,8 +13,6 @@ html {
 body {
     text-align: center;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Bree Serif', sans-serif;
     line-height: 1.6;
     color: #fff;
@@ -32,12 +30,6 @@ a {
     align-items: center;
     color: #fff;
 }
-
-/* .container {
-    max-width: 960px;
-    padding: 0 1rem;
-    
-} */
 
 .fullscreen-video-wrap {
     position: absolute;
@@ -90,9 +82,10 @@ a {
 }
 
 .main {
-      min-height: calc(100vh - 100px);
-          position: relative;
-          padding-top: 10rem;
+      padding-top: 3rem;
+      margin: auto;
+      text-align: center;
+      position: relative;
       
 }
 
