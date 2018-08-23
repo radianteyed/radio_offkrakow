@@ -82,8 +82,8 @@ a {
 }
 
 .main {
-      padding-top: 2rem;
-   margin-top: -3rem;
+      height: 90vh;
+   margin-top: -4rem;
       text-align: center;
       position: relative;
       
@@ -110,7 +110,7 @@ a {
 
 .myPlayer {
     background-color: #000;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     position: absolute;
     left: 0;
