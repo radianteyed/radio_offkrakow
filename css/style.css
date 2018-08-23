@@ -82,9 +82,9 @@ a {
 }
 
 .main {
-      height: 90vh;
-   margin-top: -4rem;
-      text-align: center;
+      height: 95vh;
+   
+     
       position: relative;
       
 }
@@ -110,7 +110,7 @@ a {
 
 .myPlayer {
     background-color: #000;
-    height: 10vh;
+    height: 100px;
     width: 100%;
     position: absolute;
     left: 0;
