@@ -26,6 +26,8 @@ a {
 
 .v-header {
   height: 100vh;
+  position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
   color: #fff;
@@ -37,7 +39,6 @@ a {
   left: 0;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 
 .fullscreen-video-wrap video {
@@ -46,11 +47,6 @@ a {
 }
 
 .header-overlay {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
   background: #000;
   z-index: 1;
   opacity: 0.2;
@@ -60,7 +56,6 @@ a {
   z-index: 2;
   margin: 0 auto;
   margin-bottom: -20%;
-  overflow: hidden;
 }
 
 .header-content img {
@@ -68,7 +63,6 @@ a {
   margin: 0 auto;
   opacity: 0.6;
   width: 80%;
- 
 }
 
 .header-content h1 {
@@ -83,13 +77,16 @@ a {
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 1.5px;
-   text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .main {
-  height: 95vh;
-  position: relative;
-  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .btn-main:link,
@@ -120,7 +117,7 @@ a {
   bottom: 0;
   display: flex;
   padding-top: 0.5rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
   justify-content: center;
   padding-top: 2rem;
   margin-top: -5rem;
@@ -132,7 +129,7 @@ button {
   width: 30px;
   height: 100%;
   outline: none;
-  padding-left: 5rem;
+  padding-left: 3.2rem;
   transition: all 0.3s;
 }
 
@@ -151,7 +148,6 @@ button {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 300;
-  transition: all 0.3s;
 }
 
 .btn-small:hover {
@@ -159,9 +155,6 @@ button {
 }
 
 @media (min-width: 980px) {
-  html {
-    font-size: 1rem;
-  }
   .header-content h1 {
     padding-top: 10%;
     font-size: 3rem;
@@ -177,5 +170,8 @@ button {
   .btn-main:link,
   .btn-main:visited {
     opacity: 1;
+  }
+  button {
+    padding-left: 5rem;
   }
 }
