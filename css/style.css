@@ -15,7 +15,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   font-family: "Bree Serif", sans-serif;
-  line-height: 1.6;
+  
   color: #fff;
   overflow-x: hidden;
 }
@@ -100,27 +100,24 @@ a {
   bottom: 0;
   display: flex;
   justify-content: center;
-  padding-left: 1.2rem;
-  padding-top: 2rem;
 }
 
 button {
   border: none;
-  padding: 2rem;
   cursor: pointer;
   width: 30px;
   height: 100%;
   outline: none;
- 
+  margin-right: 2rem;
   transition: all 0.3s;
 }
 
 #playpausebtn {
-  background: url(../img/pause-button.png) no-repeat;
+  background: url(../img/pause-button.png) center no-repeat;
 }
 
 #mutebtn {
-  background: url(../img/speaker.png) no-repeat;
+  background: url(../img/speaker.png) center no-repeat;
 }
 
 .btn-small:link,
@@ -130,7 +127,7 @@ button {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 300;
-  
+  line-height: 100px;
 }
 
 .btn-small:hover {
