@@ -29,10 +29,10 @@ function initAudioPlayer() {
     function mute() {
         if (audio.muted) {
             audio.muted = false;
-            mutebtn.style.background = "url(img/speaker.png) no-repeat";
+            mutebtn.style.background = "url(img/speaker.png)  center  no-repeat";
         } else {
             audio.muted = true;
-            mutebtn.style.background = "url(img/volume-off.png) no-repeat";
+            mutebtn.style.background = "url(img/volume-off.png)  center  no-repeat";
         }
     }
   
