@@ -106,11 +106,12 @@ a {
 
 button {
   border: none;
+  padding: 2rem;
   cursor: pointer;
   width: 30px;
   height: 100%;
   outline: none;
-  padding-left: 3.2rem;
+ 
   transition: all 0.3s;
 }
 
@@ -129,6 +130,7 @@ button {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 300;
+  
 }
 
 .btn-small:hover {
