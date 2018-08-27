@@ -135,16 +135,16 @@ button {
 }
 
 @media (min-width: 980px) {
-  .header-content h1 {
+  .main h1 {
     padding-top: 10%;
-    font-size: 4rem;
+    font-size: 3rem;
     padding-bottom: 0rem;
   }
-  .header-content img {
+  .main img {
     width: 80%;
     height: auto;
   }
-  .header-content p {
+  .main p {
     padding-top: 0;
   }
   .btn-main:link,
