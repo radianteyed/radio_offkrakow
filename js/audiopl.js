@@ -20,10 +20,10 @@ function initAudioPlayer() {
     function playPause() {
         if (audio.paused) {
             audio.play();
-            playbtn.style.background = "url(img/pause-button.png) no-repeat";
+            playbtn.style.background = "url(img/pause-button.png) center no-repeat";
         } else {
             audio.pause();
-            playbtn.style.background = "url(img/play-button.png) no-repeat";
+            playbtn.style.background = "url(img/play-button.png) center  no-repeat";
         }
     }
     function mute() {
